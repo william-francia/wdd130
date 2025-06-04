@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML form - User Poll</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | WILLIAM FRANCIA | HTML form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Full name:<input type="text" name="fullname"></label>
+                <label>Email:<input type="email" name="useremail"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet Browser?</label>
+                <Select id="browser" name="browser">
+                    <option value="Chrome">Chrome</option>
+                    <option value="firefox">firefox</option>
+                    <option value="edge">edge</option>
+                    <option value="safari">sarafi</option>
+                    <option value="brave">brave</option>
+                    <option value="other">other</option>
+                </Select>
+                <br>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="text" id="pet" name="pet">
+                <br>
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="4"
+                    placeholder="Stillwater Florida, ambsterdam Netherlands, Tibuktu Mail"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p> ©2025 | HTML form - User Poll Activity | William Francia</p>
+    </footer>
+</body>
+
+</html>
