@@ -153,6 +153,7 @@ article {
 .socialmedia a {
     text-decoration: none;
     width: 35px;
+    height: 35px;
 }
 
 aside {
@@ -168,13 +169,45 @@ aside img {
 
 footer {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    background-color: var(--secondary-color);
 }
 
 .footer1 {
-    grid-column: 3 / 5;
+    grid-column: 5 / 9;
 }
 
-.footer2 {
-    grid-column: 5 / 7;
+/* After this part is abouth contact.html */
+
+.submit {
+    padding: .75rem 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 5rem;
+}
+
+#message {
+    padding: 45px;
+    width: 400px;
+}
+.photos-contact-us{
+    display: flex;
+    justify-content: center;
+    height: 950px;
+}
+.photos-contact-us1,
+.photos-contact-us2,
+.photos-contact-us3 {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    }
