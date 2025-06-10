@@ -202,12 +202,16 @@ form {
 .photos-contact-us{
     display: flex;
     justify-content: center;
-    height: 950px;
+    height: 250px;
 }
 .photos-contact-us1,
 .photos-contact-us2,
 .photos-contact-us3 {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
     object-fit: cover;
+    margin: 8px;
     }
+iframe {
+  border: none;
+}
