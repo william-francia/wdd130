@@ -4,7 +4,7 @@
     --accent1-color: #58b09cff;
     --accent2-color: #3d3522ff;
     --heading-font: "Poetsen One", sans-serif;
-    --body-font: "Indie Flower", cursive;
+    --body-font: "Montserrat", sans-serif;
 }
 
 * {
@@ -92,8 +92,15 @@ header {
     padding: 10px 20px;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    background-color: var(--secondary-color);
+    background-color: rgb(23, 39, 59);
+    max-height: 120px;
 }
+
+header a {
+    font-size: 20px;
+    margin-left: 60px;
+}
+
 
 header img {
     width: 150px;
@@ -102,6 +109,7 @@ header img {
 
 .hero {
     position: relative;
+    margin-top: 20px;
 }
 
 article {
@@ -185,6 +193,7 @@ footer {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 15px;
 }
 
 form {
@@ -199,11 +208,13 @@ form {
     padding: 45px;
     width: 400px;
 }
-.photos-contact-us{
+
+.photos-contact-us {
     display: flex;
     justify-content: center;
     height: 250px;
 }
+
 .photos-contact-us1,
 .photos-contact-us2,
 .photos-contact-us3 {
@@ -211,7 +222,318 @@ form {
     max-height: 500px;
     object-fit: cover;
     margin: 8px;
-    }
+}
+
 iframe {
-  border: none;
+    border: none;
+}
+
+/* After this part is abouth trips.html */
+.main-trips {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.trips.img img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.trip-article {
+    position: absolute;
+    bottom: 30px;
+    left: 900px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 16px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title-trips {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 90px;
+    position: absolute;
+    padding: 16px;
+    bottom: 350px;
+}
+
+.booking-trips {
+    padding: 100px;
+    padding-bottom: 90px;
+}
+
+.booking-trips div {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#submit-booking {
+    background-color: var(--accent1-color);
+    color: white;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.steps-trips {
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: rgb(204, 204, 204);
+    padding: 80px;
+    color: black;
+    border: 40px;
+}
+
+.steps-trips h3 {
+    font-size: 35px;
+}
+
+.steps-trips img {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: auto;
+    padding: 30px;
+}
+
+.booking-trips p {
+    font-size: 30px;
+}
+
+.steps-you-have-to-follow {
+    display: flex;
+    justify-content: center;
+}
+.subscription {
+    padding: 40px;
+    right: 200px;
+    left: 200px;
+    margin: 1px;
+    background-color: #e4e4e4;
+    color: #386150;
+}
+
+
+.grid-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  background-color: #f0f0f0;
+}
+
+.info-item {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.info-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-item h3 {
+  margin-top: 15px;
+  color: #386150;
+}
+
+.info-item p {
+  color: #333;
+}
+
+
+
+
+/* After this part is abouth index.html */
+.main-index {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title-index {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 90px;
+    position: absolute;
+    padding: 16px;
+    bottom: 235px;
+    right: 140px;
+    color: #ccc;
+}
+
+header {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+main {
+    margin-top: 0;
+}
+
+/* After this part is abouth improvements for my proyect*/
+.titleall {
+    margin-top: 0.5px;
+    padding-right: 110px;
+    margin-right: 200px;
+    background: none;
+    max-width: 290px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.urukayak {
+    position: absolute;
+    left: 170px;
+}
+
+/* After this part is abouth index.html egain */
+.text-index {
+    padding: 150px;
+}
+.text-index h4 {
+    display: flex;
+    justify-content: center;
+}
+.text-index p {
+    display: flex;
+    justify-content: center;
+}
+.text-index1 {
+    background-color: rgb(231, 221, 126);
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding: 80px;
+}
+.text-index2 {
+    padding: 50px;
+}
+.carousel-inner img {
+    max-height: 850px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+.link-contact-us {
+    font-family: var(--heading-font);
+    font-size: 40px;
+}
+.kayak-trips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.trip {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.trip img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.trip h3 {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #222;
+}
+
+.trip p {
+  font-size: 0.95em;
+  color: #444;
+}
+.title-trips-2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.trips-table-section {
+  padding: 20px;
+  background-color: #f0f4f8;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.trips-table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: var(--body-font);
+  background-color: white;
+}
+
+.trips-table th,
+.trips-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.trips-table th {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.trips-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.about-offers {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-bottom: 170PX;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 16px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.grid-item h3 {
+  margin-top: 16px;
+  color: #386150;
+}
+
+.grid-item p {
+  margin-top: 8px;
+  color: #333;
 }
